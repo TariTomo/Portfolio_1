@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+/* 아이콘박스 */
+.service .service-icon.custom3 {
+  background-color: #2ed1ff;
+  color: #fff;
+}
+
+.service.service-box3 {
+  position: relative;
+  background-color: #fff;
+  padding: 1.8rem 1rem;
+  text-align: center;
+  transition: all 0.65s cubic-bezier(0.92, 0.17, 0.29, 0.93) 0s;
+}
+
+.service.service-box3 .service-icon.custom3 i {
+  color: #f1f1f1 ;
+  transition: all 0.65s cubic-bezier(0.92, 0.17, 0.29, 0.93) 0s;
+}
+
+.service.service-box3:hover {
+  color: #fff;
+  background-color: #2ed1ff !important;
+}
+
+.service.service-box3:hover .service-icon.custom3 {
+  background-color: #f1f1f1 !important;
+}
+
+.service.service-box3:hover .service-icon.custom3 i {
+  color: #2ed1ff ;
+}
+
+.service.service-box3:hover .service-title {
+  color: #fff;
+}
+
+.service.service-box3:hover .service-title a {
+  color: #f1f1f1;
+}
+
+.service.service-box3:hover .service-title a:hover, .service.service-box:hover .service-title a:focus {
+  color: #fff;
+}
+
+/* 커스텀 버튼색 */
+.btn.btn-himedia {
+  color: #fff;
+  background-color: #2ed1ff;
+  border-color: #2ed1ff;
+}
+
+.btn.btn-himedia:hover, .btn.btn-himedia:focus {
+  color: #fff;
+  background-color: #23abd2;
+  border-color: #23abd2;
+}
+
+.btn.btn-himedia.btn-border {
+  color: #2ed1ff;
+  background-color: transparent;
+  border-color: #2ed1ff;
+}
+
+.btn.btn-himedia.btn-border:hover, .btn.btn-himedia.btn-border:focus {
+  color: #fff;
+  background-color: #23abd2;
+  border-color: #23abd2;
+}
