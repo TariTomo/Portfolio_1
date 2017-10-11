@@ -38,7 +38,7 @@
                                      		<li class="dropdown">
 	                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">웹디자인 &amp; 웹퍼블리싱<span class="angle"></span></a>
 		                                            <ul class="dropdown-menu" role="menu">
-			                                                <li><a href="index-shop.html">시각(디지털사이니지광고)디자인 양성과정</a></li>
+			                                                <li><a href="/course/publisher/visual_design.hi">시각(디지털사이니지광고)디자인 양성과정</a></li>
 			                                                <li><a href="index-shop2.html">UI/UX엔지니어링(반응형,웹모바일)양성과정</a></li>
 			                                                <li><a href="index-shop3.html">디지털컨버전스 (웹퍼블리셔) 양성과정</a></li>
 			                                                <li><a href="index-shop3.html">스마트기기 UX/UI디자인(반응형 웹디자인) 양성과정</a></li>

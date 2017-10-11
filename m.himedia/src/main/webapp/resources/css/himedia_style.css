@@ -68,3 +68,10 @@
   background-color: #23abd2;
   border-color: #23abd2;
 }
+
+
+
+/* 과정부분 */
+.title.custom3:after {
+  background-color: #E91E63;
+}

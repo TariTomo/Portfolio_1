@@ -13,23 +13,23 @@
         <!-- Google Fonts -->
         <link href="http://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,600,700" rel="stylesheet">
 
-        <link rel="stylesheet" href="../assets/bold/assets/css/plugins.min.css">
-        <link rel="stylesheet" href="../assets/bold/assets/css/settings.css">
-        <link rel="stylesheet" href="../assets/bold/assets/css/layers.css">
-        <link rel="stylesheet" href="../assets/bold/assets/css/navigation.css">
-        <link rel="stylesheet" href="../assets/bold/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/bold/assets/css/plugins.min.css">
+        <link rel="stylesheet" href="/assets/bold/assets/css/settings.css">
+        <link rel="stylesheet" href="/assets/bold/assets/css/layers.css">
+        <link rel="stylesheet" href="/assets/bold/assets/css/navigation.css">
+        <link rel="stylesheet" href="/assets/bold/assets/css/style.css">
         
         
         <!-- Favicon -->
-        <link rel="icon" type="image/png" href="../assets/bold/assets/images/icons/favicon.png">
-        <link rel="apple-touch-icon" sizes="57x57" href="../assets/bold/assets/images/icons/faviconx57.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="../assets/bold/assets/images/icons/faviconx72.png">
+        <link rel="icon" type="image/png" href="/assets/bold/assets/images/icons/favicon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/bold/assets/images/icons/faviconx57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/bold/assets/images/icons/faviconx72.png">
 
         <!-- Modernizr -->
-        <script src="../assets/bold/assets/js/modernizr.js"></script>
+        <script src="/assets/bold/assets/js/modernizr.js"></script>
         
         <!-- Custom -->
-        <link rel="stylesheet" href="../resources/css/himedia_style.css">
+        <link rel="stylesheet" href="/resources/css/himedia_style.css">
         <!-- Font Awesome -->
         <script src="https://use.fontawesome.com/0f52975510.js"></script>
         
@@ -45,7 +45,10 @@
         <div id="wrapper">
 	<jsp:include page="../../../include/header.jsp" flush="false"/>
           <div class="main">
-          	<img src="../resources/img/logo.png">
+          	<div class="container-fluid">
+          		<h2 class="title custom2 text-center">시각(디지털사이니지광고)디자인 양성과정</h2>
+          		
+          	</div>
           </div>
           <jsp:include page="../../../include/footer.jsp"  flush="false"/>
         </div><!-- End #wrapper -->
@@ -54,27 +57,27 @@
         <a id="scroll-top" href="#top" title="Scroll top"><i class="fa fa-angle-up"></i></a>
 
         <!-- End -->
-        <script src="../assets/bold/assets/js/plugins.min.js"></script>
-        <script src="../assets/bold/assets/js/jquery.validate.min.js"></script>
-        <script src="../resources/js/contact.js"></script>
-        <script src="../assets/bold/assets/js/main.js"></script>
+        <script src="/assets/bold/assets/js/plugins.min.js"></script>
+        <script src="/assets/bold/assets/js/jquery.validate.min.js"></script>
+        <script src="/resources/js/contact.js"></script>
+        <script src="/assets/bold/assets/js/main.js"></script>
 
         <!-- REVOLUTION JS FILES -->
-        <script type="text/javascript" src="../assets/bold/assets/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="../assets/bold/assets/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="/assets/bold/assets/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="/assets/bold/assets/js/jquery.themepunch.revolution.min.js"></script>
 
          <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
             (Load Extensions only on Local File Systems !  
             The following part can be removed on Server for On Demand Loading) -->  
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.actions.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.migration.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="../assets/bold/assets/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="/assets/bold/assets/js/extensions/revolution.extension.video.min.js"></script>
         
     </body>
 </html>

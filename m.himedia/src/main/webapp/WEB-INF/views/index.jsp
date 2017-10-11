@@ -51,7 +51,7 @@
                 <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
                     <div id="rev_slider_18_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
                         <ul>    <!-- SLIDE  -->
-                            <li data-index="rs-59" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/bold/assets/revolution-assets/images/newspaper_bg1-100x50.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Discover" data-description="">
+                            <li data-index="rs-59" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/bold/assets/revolution-assets/images/newspaper_bg1-100x50.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-description="">
                                 <!-- MAIN IMAGE -->
                                 <img src="resources/img/main/1.png"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
@@ -150,7 +150,7 @@
                                 </div>
                             </li>
                             <!-- SLIDE  -->
-                            <li data-index="rs-60" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/bold/assets/revolution-assets/images/newspaper_bg3-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Beach" data-description="">
+                            <li data-index="rs-60" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/bold/assets/revolution-assets/images/newspaper_bg3-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-description="">
                                 <!-- MAIN IMAGE -->
                                 <img src="assets/bold/assets/revolution-assets/images/newspaper_bg3.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
@@ -248,7 +248,7 @@
                                 </div>
                             </li>
                             <!-- SLIDE  -->
-                            <li data-index="rs-61" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/bold/assets/revolution-assets/images/newspaper_bg2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Trip" data-description="">
+                            <li data-index="rs-61" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/bold/assets/revolution-assets/images/newspaper_bg2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-description="">
                                 <!-- MAIN IMAGE -->
                                 <img src="assets/bold/assets/revolution-assets/images/newspaper_bg2.jpg"  alt=""  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
@@ -353,7 +353,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
-                            <div class="service service-box3" style="margin-top:10px;">
+                            <div class="service service-box3" style="margin-top:20px;">
                                 <div class="service-icon custom3">
                                     <i class="fa fa-rocket" style="font-size:1.9rem;"></i>
                                 </div><!-- End .service-icon -->
