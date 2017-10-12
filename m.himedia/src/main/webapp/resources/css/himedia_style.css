@@ -72,6 +72,113 @@
 
 
 /* 과정부분 */
-.title.custom3:after {
-  background-color: #E91E63;
+
+.course-title {
+  position: relative;
+  padding-bottom: 1.2rem;
 }
+
+.course-title::after {
+  content: '';
+  display: block;
+  width: 6rem;
+  height: 1.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #d7d4d4;
+}
+
+.course-title.text-center::after {
+  left: 50%;
+  margin-left: -3rem;
+}
+
+.course-title.custom1::after {
+  background-color: #2ED1FF;
+}
+
+.course-text-desc {
+  font-size: 0.75rem;
+  font-weight: 300;
+  max-width: 720px;
+  position: relative;
+  padding-bottom: 1.2rem;
+}
+
+.course-text-desc.text-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-text-desc::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #8e8e8e;
+}
+
+.cosure-line /* 과정요강 안에 테이블 안 줄 맞추는용도 */
+{
+	margin-bottom:21px;
+}
+
+.none-font /* 폰트 죽이기 */
+{
+	font-family:unset;
+}
+
+.none-border
+{
+	border-left:0px !important;
+	border-right:0px !important;
+}
+
+.course-info-table
+{
+	border-color:#2ED1FF;
+	border-width: 4px;
+}
+
+.course-info-icon /* 과정 요강 등 왼쪽에 있는 아이콘 */
+{
+	vertical-align: middle;
+	margin-bottom:10px;
+	margin-right:5px;
+}
+
+.course-info-oneline
+{
+	color: #2ED1FF;
+	margin-bottom:5px;
+}
+
+.course-info-twoline
+{
+	font-size: 0.8em;
+	margin-bottom:0px;
+}
+
+.course-info-target-wrapper
+{
+	background-color:#fff
+}
+
+.course-info-target-text
+{
+	font-size:0.85em;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+}
+
+/* 과정 실업자 국비지원 과정 */
+
+.font-white
+{
+	color: #fff;
+}
+
