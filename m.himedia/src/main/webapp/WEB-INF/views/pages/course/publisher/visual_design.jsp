@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <title>하이미디어 컴퓨터학원</title>
-        <meta name="description" content="Multipurpose bootstrap template">
+<!--         <meta name="description" content="Multipurpose bootstrap template"> -->
 
         <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -113,9 +113,73 @@
 		          		<span style="font-size:0.9em;">구직자 및 실업자 등에게 내일배움카드를 발급하고 일정 금액의 훈련비를 지원함으로써
 직업증력개발훈련에 참여할 수 있도록 하여, 직업능력개발훈련 이력을 종합적으로 관리하는 제도입니다.</span>
 			</div>
-			<div>
-				
+			
+			<div class="hexagon-base">
+				<ul class="box">
+					<li class="hexagon">
+						<div class="hexagon-text">
+							<p class="hexagon-text-line">교육비</p>
+							<p class="hexagon-text-line hexagon-text-middle">100%</p>
+							<p class="hexagon-text-line">지원</p>
+							
+						</div>
+					</li>
+					<li class="hexagon">
+						<div class="hexagon-text">
+							<p class="hexagon-text-line">훈련 장려금</p>
+							<p class="hexagon-text-line hexagon-text-middle">416,000원</p>
+							<p class="hexagon-text-line">매달지원</p>
+							
+						</div>
+					</li>
+					<li class="hexagon">
+						<div class="hexagon-text">
+							<p class="hexagon-text-line">취업성공시</p>
+							<p class="hexagon-text-line hexagon-text-middle">성공수당</p>
+							<p class="hexagon-text-line">지급</p>
+							
+						</div>
+					</li>
+				</ul>
 			</div>
+			<div>
+				<p style="background-color: #0E3E61">1인당 계좌한도 200만원/취업성공패키지 유형에 따라 본인 부담금 0~50%</p>
+			</div>
+			<div class="table-responsive">
+		                                <table class="table table-bordered" style="background-color: unset;">
+		                                    <tbody>
+		                                        <tr>
+		                                            <td></td>
+		                                            <td colspan="2">국가기간전략산업</td>
+		                                        </tr>
+		                                        <tr>
+		                                            <td>지원형태</td>
+		                                            <td colspan="2">내일배움카드</td>
+		                                        </tr>
+		                                        <tr>
+		                                            <td>자비훈련부담금</td>
+		                                            <td colspan="2">자비부담없음</td>
+		                                        </tr>
+		                                        <tr>
+		                                            <td>훈련수당</td>
+		                                            <td colspan="2">교통비+식대 11만6천원</td>
+		                                        </tr>
+		                                        <tr>
+		                                            <td rowspan="2">훈련장학금</td>
+		                                            <td>취업성공패키지1,2</td>
+		                                            <td>최대30만원</td>
+		                                        </tr>
+		                                        <tr>
+		                                        	<td>일반</td>
+		                                        	<td>최대30만원</td>
+		                                        </tr>
+		                                        <tr>
+		                                            <td>훈련장려금(패널티)</td>
+		                                            <td colspan="2">2회차 = 50% 삭감, 3회차 = 없음</td>
+		                                        </tr>
+		                                    </tbody>
+		                                </table>
+		                         </div>
 		</div>
           	</div>
           </div>

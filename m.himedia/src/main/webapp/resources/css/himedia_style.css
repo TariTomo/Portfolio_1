@@ -182,3 +182,34 @@
 	color: #fff;
 }
 
+.hexagon-base
+{
+	margin-top:60px;
+}
+
+.hexagon
+{
+	width:286px;
+	height:330px;
+	display: inline-block;
+	background-image: url(/resources/img/course/base/groups.png);
+	margin-bottom:50px;
+}
+
+.hexagon-text
+{
+	position: relative;
+	top:110px;
+	font-size: 1.3em;
+}
+
+.hexagon-text-line
+{
+	margin-bottom: 0px;
+}
+
+.hexagon-text-line.hexagon-text-middle
+{
+	font-size: 1.7em;
+	font-weight: bold
+}
