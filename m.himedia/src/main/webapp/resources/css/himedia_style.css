@@ -1,5 +1,17 @@
 @CHARSET "UTF-8";
 
+#scroll-top
+{
+	display: block !important;
+	font-size: 2.5em;
+	background-color: #00BDDA;
+}
+
+#scroll-top:hover, #scroll-top:focus
+{
+	background-color: #00BDDA;
+}
+
 /* 아이콘박스 */
 .service .service-icon.custom3 {
   background-color: #2ed1ff;
@@ -212,4 +224,278 @@
 {
 	font-size: 1.7em;
 	font-weight: bold
+}
+
+/* 그 다음 밑 */
+.nobg-white
+{
+	background-color:unset !important;
+	color:white !important;
+}
+
+/* 지원절차 */
+
+.margin-size
+{
+	width:7em !important;
+	margin-top:50px !important;
+	margin-bottom:50px !important;
+	background-color: #00BDDA !important;
+	color: white !important;
+}
+
+.icon-size-custom
+{
+	font-size:2.3em !important;
+}
+
+/* 강의정보 */
+
+.blue-box
+{
+	border:3px solid;
+	border-color: #2ED1FF;
+}
+
+.job_list li
+{
+	    float: left;
+	    height: 15px;
+	    text-align: center;
+	    font-weight: bold;
+}
+
+.job_list li>span
+{
+	display:block;
+	margin-top:30px;
+	font-size: 0.8em;
+}
+
+.job-group ul li
+{
+	margin-right: 20px;
+}
+
+/* 커리큘럼 */
+
+.curriculum
+{
+	position: relative;
+}
+
+.curriculum:before
+{
+	content:"";
+	position:absolute;
+	height:100%;
+	left:50%;
+	border-left: 1px #727272 solid;
+}
+
+.curriculum>ol>li
+{
+	position: relative;
+}
+
+.curriculum>ol>li ol
+{
+	margin:5px 0;
+}
+
+.curriculum>ol>li:nth-child(odd)
+{
+	margin-right:50%;
+	text-align:right;
+	padding-right: 40px;
+}
+
+.curriculum>ol>li:nth-child(even)
+{
+	margin-left:50%;
+	text-align:left;
+	padding-left: 40px;
+}
+
+.curriculum>ol>li:before
+{
+	content:"";
+	position: absolute;
+	width:20px;
+	height:20px;
+	border:5px #35bad8 solid;
+	border-radius:50%;
+	background-color: #fff;
+}
+
+.curriculum>ol>li:nth-child(odd)::before
+{
+	right:-10px;
+}
+
+.curriculum>ol>li:nth-child(even)::before
+{
+	left:-10px;
+}
+
+.curriculum>ol li
+{
+	font-size: 0.85em;
+}
+
+.curriculum>ol>li strong
+{
+	    font-size: 1.5em;
+	    font-weight: bold;
+	    color: #35bad8;
+}
+
+/* 인터뷰 */
+
+.list_box
+{
+	width:100%;
+}
+
+.list_box ul
+{
+	overflow:hidden;
+	margin-bottom: 45px;
+}
+
+.list_box li
+ {
+	float: left;
+	text-transform: uppercase;
+	padding-bottom: 80px;
+	position: relative;
+}
+
+.list_box li .list_top
+ {
+	border-bottom: 3px #1490a5 solid;
+	line-height: 42px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding: 0 10px;
+}
+
+.list_box li .list_top .name
+{
+	font-size: 20px;
+	float:left;
+	font-weight: bold;
+}
+
+.list_box li .list_top span
+{
+	float:right;
+	font-size:14px;
+}
+
+.list_box li a
+{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #b7b7b7;
+	text-align: center;
+	display: block;
+	width: 125px;
+	position: absolute;
+	right: 0;
+	border-bottom: 1px #b7b7b7 solid;
+	line-height: 26px;
+}
+
+.list_box li a:hover
+{
+	color: #35bad8;
+	border-color: #35bad8;
+}
+
+.list_box li p
+{
+	font-size: 1em;
+}
+
+/* 하이미디어 취업지원 프로세스 */
+
+
+/* 수강후기 */
+
+.review_box ul
+{
+	width:100%;
+	margin-bottom:60px;
+}
+
+.review_box li
+{
+	    vertical-align: top;
+	    box-sizing: border-box;
+	    border: 1px #e5e5e5 solid;
+	    display: inline-block;
+	    width: 100%;
+	    height: auto;
+	    position: relative;
+	    margin: 0 29px 30px 0;
+	    background-color: #FFF;
+}
+
+.review_box li div.review
+{
+	font-size: 14px;
+	line-height: 23px;
+	box-sizing: border-box;
+	margin: 30px 20px 20px;
+}
+
+.review_box li div.detail
+{
+	position: relative;
+	line-height: 44px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border-top: 2px #00bdda solid;
+}
+
+.review_box li .detail .score
+ {
+	height: 12px;
+	position: absolute;
+	right: 20px;
+	display: inline-block;
+}
+	
+.review_box li .detail .score span.full
+ {
+	display: inline-block;
+	width: 12px;
+	height: 11px;
+	background-image: url(/resources/img/course/base/score_red.png);
+	background-repeat: no-repeat;
+}
+
+.review_box li .detail .score span.white
+ {
+	display: inline-block;
+	width: 12px;
+	height: 11px;
+	background-image: url(/resources/img/course/base/score_white.png);
+	background-repeat: no-repeat;
+}
+
+.review_box li .detail .name
+ {
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 20px;
+	color: #4a4a4a;
+}
+
+.review_box li .detail .course
+ {
+	font-size: 12px;
+	color: #737373;
+	margin-left: 3px;
 }
